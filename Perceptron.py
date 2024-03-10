@@ -11,6 +11,11 @@ la máxima distancia (margen) con los puntos que estén más cerca de él mismo.
 de margen máximo. De esta forma, los puntos del vector que son etiquetados con una categoría estarán a un lado del hiperplano 
 y los casos que se encuentren en la otra categoría estarán al otro lado.
 
+El proyecto es un testeo de la neurona Perceptron, encargada de procesar un conjunto de datos de entrenamiento y poder realizar predicciones 
+sobre la variación morfológica de la flor Iris de tres especies relacionadas (Iris setosa, Iris virginica e Iris versicolor).
+El codigo coloca en un data frame, la informacion sobre el ancho y el largo del sepalo y petalo (en centimetros) de cada flor.
+De antemano se conoce la clasificacion de cada una, por lo que se podra averiguar la precision con la que funciona la neurona.
+
 """
 #lectura conjunto de datos
 from sklearn.datasets import load_iris
